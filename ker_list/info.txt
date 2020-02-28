@@ -1,0 +1,3 @@
+dmesg kernel buffer
+sudo insmod x.ko
+sudo rmmod x
