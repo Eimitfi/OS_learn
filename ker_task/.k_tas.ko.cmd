@@ -1,0 +1,1 @@
+cmd_/root/Documents/OS_learn/ker_task/k_tas.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -T /usr/src/linux-headers-4.9.0-7-common/scripts/module-common.lds --build-id  -o /root/Documents/OS_learn/ker_task/k_tas.ko /root/Documents/OS_learn/ker_task/k_tas.o /root/Documents/OS_learn/ker_task/k_tas.mod.o ;  true
