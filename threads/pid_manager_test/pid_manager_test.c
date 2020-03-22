@@ -29,7 +29,7 @@ int main(){
 	pthread_attr_t attr;
 	pthread_attr_init(&attr);
 	for(int i=0;i<N_THREADS();i++){
-		pthread_create(tid+1,&attr,runner,NULL);
+		pthread_create(tid+i,&attr,runner,NULL);
 	}
 	pthread_exit(NULL);
 
