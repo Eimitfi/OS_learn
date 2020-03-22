@@ -2,7 +2,7 @@
 #define _PID_MANAGER_H
 #include <stdlib.h>
 #define MIN_PID 300
-#define MAX_PID 303
+#define MAX_PID 302
 #define INT_BITS() (sizeof(unsigned int)*8)
 #define BIT_NEEDED() (MAX_PID-MIN_PID+1)
 #define OFFSET_ARRAY() BIT_NEEDED()%INT_BITS()
